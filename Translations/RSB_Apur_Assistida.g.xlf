@@ -958,6 +958,26 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CBS Panel - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3561022760 - NamedType 2622939808" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Reconciliation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Panel - NamedType ExportDialogTitleTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 3561022760 - NamedType 870226832" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 debt(s) reconciled.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = count of debts reconciled</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Panel - NamedType ReconciledPendingMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 3561022760 - NamedType 2674825604" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Reconciliation.csv</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Panel - NamedType ReconciliationCsvFileNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 3561022760 - NamedType 1348426805" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reverse lookup finished: %1 note(s) found with no matching CBS debt.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = count of notes found</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Panel - NamedType ReverseLookupDoneMsg</note>
+        </trans-unit>
         <trans-unit id="Page 3561022760 - Control 3971433691 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Totals of the Current Filter</source>
           <note from="Developer" annotates="general" priority="2"></note>
@@ -993,20 +1013,145 @@
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CBS Panel - Action Reconciliations - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 3561022760 - Action 617001191 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exports the latest reconciliation evaluation of every debt to a CSV file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Panel - Action ExportReconciliationCsv - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3561022760 - Action 617001191 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Reconciliation to CSV</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Panel - Action ExportReconciliationCsv - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3561022760 - Action 1017399427 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Evaluates every CBS debt that has no reconciliation trail yet against the fiscal history, using the configured adapter and tolerance.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Panel - Action ReconcilePending - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3561022760 - Action 1017399427 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reconcile Pending Debts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Panel - Action ReconcilePending - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3561022760 - Action 479345558 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finds fiscal history notes, within an issue date range, that have no CBS debt linked by access key.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Panel - Action ReverseLookup - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3561022760 - Action 479345558 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reverse Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Panel - Action ReverseLookup - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 549355521 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>CBS Reconciliations</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CBS Reconciliation List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 549355521 - NamedType 2622939808" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Reconciliation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Reconciliation List - NamedType ExportDialogTitleTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 549355521 - NamedType 870226832" size-unit="char" translate="yes" xml:space="preserve">
+          <source>%1 debt(s) reconciled.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = count of debts reconciled</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Reconciliation List - NamedType ReconciledPendingMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 549355521 - NamedType 2674825604" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Reconciliation.csv</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Reconciliation List - NamedType ReconciliationCsvFileNameTxt</note>
+        </trans-unit>
+        <trans-unit id="Page 549355521 - NamedType 1348426805" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reverse lookup finished: %1 note(s) found with no matching CBS debt.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = count of notes found</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Reconciliation List - NamedType ReverseLookupDoneMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 549355521 - Action 617001191 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exports the latest reconciliation evaluation of every debt to a CSV file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Reconciliation List - Action ExportReconciliationCsv - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 549355521 - Action 617001191 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Export Reconciliation to CSV</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Reconciliation List - Action ExportReconciliationCsv - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 549355521 - Action 1017399427 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Evaluates every CBS debt that has no reconciliation trail yet against the fiscal history, using the configured adapter and tolerance.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Reconciliation List - Action ReconcilePending - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 549355521 - Action 1017399427 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reconcile Pending Debts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Reconciliation List - Action ReconcilePending - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 549355521 - Action 479345558 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Finds fiscal history notes, within an issue date range, that have no CBS debt linked by access key.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Reconciliation List - Action ReverseLookup - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 549355521 - Action 479345558 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reverse Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Reconciliation List - Action ReverseLookup - Property Caption</note>
         </trans-unit>
         <trans-unit id="Page 334458451 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>CBS Requests</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CBS Request List - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Page 334458451 - NamedType 3133980246" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Collection cycle finished. See the list above and CBS Log Entry for details.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Request List - NamedType CollectionCycleRanMsg</note>
+        </trans-unit>
+        <trans-unit id="Page 334458451 - Action 2032105075 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Runs one collection cycle immediately - the same logic normally executed by the scheduled Job Queue entry - without waiting for its next scheduled run.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Request List - Action RunCollectionNow - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 334458451 - Action 2032105075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Run Collection Now</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Request List - Action RunCollectionNow - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2880192619 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reverse Lookup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Reverse Lookup Request - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2880192619 - Control 3702096748 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the start of the issue date range to scan for notes without a matching CBS debt.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Reverse Lookup Request - Control FromDateField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2880192619 - Control 3702096748 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>From Issue Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Reverse Lookup Request - Control FromDateField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2880192619 - Control 3249287415 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the end of the issue date range to scan for notes without a matching CBS debt.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Reverse Lookup Request - Control ToDateField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2880192619 - Control 3249287415 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>To Issue Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Reverse Lookup Request - Control ToDateField - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Page 3157683995 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>CBS Setup</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - NamedType 3133980246" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Collection cycle finished. See CBS Requests and CBS Log Entry for details.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - NamedType CollectionCycleRanMsg</note>
         </trans-unit>
         <trans-unit id="Page 3157683995 - NamedType 662930363" size-unit="char" translate="yes" xml:space="preserve">
           <source>This loads fictitious demo data (setup, credential, debts and reconciliations) for demonstration purposes. Continue?</source>
@@ -1117,6 +1262,16 @@
           <source>Load Demo Data</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Action LoadDemoData - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - Action 2032105075 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Runs one collection cycle immediately - the same logic normally executed by the scheduled Job Queue entry - without waiting for its next scheduled run.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Action RunCollectionNow - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - Action 2032105075 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Run Collection Now</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Action RunCollectionNow - Property Caption</note>
         </trans-unit>
         <trans-unit id="PageExtension 4238463494 - Action 443515510 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2747922353">
           <source>CBS Assisted Assessment</source>

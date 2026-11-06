@@ -124,6 +124,21 @@ page 50150 "CBS Setup Card"
         }
         area(Processing)
         {
+            action(RunCollectionNow)
+            {
+                ApplicationArea = All;
+                Caption = 'Run Collection Now';
+                ToolTip = 'Runs one collection cycle immediately - the same logic normally executed by the scheduled Job Queue entry - without waiting for its next scheduled run.';
+                Image = Refresh;
+
+                trigger OnAction()
+                var
+                    Dispatcher: Codeunit "CBS Job Queue Dispatcher";
+                begin
+                    Dispatcher.RunCycle();
+                    Message(CollectionCycleRanMsg);
+                end;
+            }
             action(LoadDemoData)
             {
                 ApplicationArea = All;
@@ -150,4 +165,5 @@ page 50150 "CBS Setup Card"
 
     var
         LoadDemoDataConfirmQst: Label 'This loads fictitious demo data (setup, credential, debts and reconciliations) for demonstration purposes. Continue?';
+        CollectionCycleRanMsg: Label 'Collection cycle finished. See CBS Requests and CBS Log Entry for details.';
 }

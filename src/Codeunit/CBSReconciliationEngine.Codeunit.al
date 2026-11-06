@@ -12,6 +12,32 @@ codeunit 50135 "CBS Reconciliation Engine"
 {
     Access = Internal;
 
+    /// <summary>
+    /// Manual, on-demand entry point (action button): evaluates every CBS Debt that does not
+    /// yet have any reconciliation trail recorded. Returns the number of debts reconciled.
+    /// </summary>
+    procedure ReconcilePending(): Integer
+    var
+        Debt: Record "CBS Debt";
+        Reconciliation: Record "CBS Reconciliation";
+        Factory: Codeunit "CBS Adapter Factory";
+        Setup: Record "CBS Setup";
+        Adapter: Interface "ICbsFiscalHistory";
+        ReconciledCount: Integer;
+    begin
+        Setup.GetSetup(Setup);
+        Adapter := Factory.CreateAdapter();
+        if Debt.FindSet() then
+            repeat
+                Reconciliation.SetRange("Debt Entry No", Debt."Entry No");
+                if Reconciliation.IsEmpty() then begin
+                    ReconcileDebt(Debt, Adapter, Setup."Fiscal History Adapter", Setup."Reconciliation Tolerance", '');
+                    ReconciledCount += 1;
+                end;
+            until Debt.Next() = 0;
+        exit(ReconciledCount);
+    end;
+
     /// <summary>Evaluates a single debt and records a new trail line in CBS Reconciliation.</summary>
     procedure ReconcileDebt(var Debt: Record "CBS Debt"; Adapter: Interface "ICbsFiscalHistory"; SelectedAdapter: Enum "CBS Fiscal History Adapter"; Tolerance: Decimal; BatchTrailCode: Code[20])
     var

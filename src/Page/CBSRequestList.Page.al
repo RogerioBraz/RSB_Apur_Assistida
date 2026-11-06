@@ -34,4 +34,30 @@ page 50152 "CBS Request List"
             }
         }
     }
+
+    actions
+    {
+        area(Processing)
+        {
+            action(RunCollectionNow)
+            {
+                ApplicationArea = All;
+                Caption = 'Run Collection Now';
+                ToolTip = 'Runs one collection cycle immediately - the same logic normally executed by the scheduled Job Queue entry - without waiting for its next scheduled run.';
+                Image = Refresh;
+
+                trigger OnAction()
+                var
+                    Dispatcher: Codeunit "CBS Job Queue Dispatcher";
+                begin
+                    Dispatcher.RunCycle();
+                    CurrPage.Update(false);
+                    Message(CollectionCycleRanMsg);
+                end;
+            }
+        }
+    }
+
+    var
+        CollectionCycleRanMsg: Label 'Collection cycle finished. See the list above and CBS Log Entry for details.';
 }
