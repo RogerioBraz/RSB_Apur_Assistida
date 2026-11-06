@@ -3,21 +3,28 @@
   "name": "RSB_Apur_Assistida",
   "publisher": "Default Publisher",
   "version": "1.0.0.0001",
-  "brief": "",
-  "description": "",
+  "brief": "CBS Assisted Assessment for Business Central",
+  "description": "Integrates with the Brazilian Revenue Service's CBS Assisted Assessment API, imports debts, presents a panel by period and reconciles against the history of issued NF-e.",
   "privacyStatement": "https://rsbtech.com.br/",
   "EULA": "https://rsbtech.com.br/",
   "help": "https://rsbtech.com.br/",
   "url": "https://rsbtech.com.br/",
   "logo": "",
-  "dependencies": [],
+  "dependencies": [
+    {
+      "id": "437dbf0e-84ff-417a-965d-ed2bb9650972",
+      "name": "Base Application",
+      "publisher": "Microsoft",
+      "version": "29.0.0.0"
+    }
+  ],
   "screenshots": [],
   "platform": "1.0.0.0",
   "application": "29.0.0.0",
   "idRanges": [
     {
       "from": 50100,
-      "to": 50149
+      "to": 50299
     }
   ],
   "resourceExposurePolicy": {
@@ -27,6 +34,7 @@
   },
   "runtime": "18.0",
   "features": [
-    "NoImplicitWith"
+    "NoImplicitWith",
+    "TranslationFile"
   ]
 }
