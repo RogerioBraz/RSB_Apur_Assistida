@@ -1,0 +1,1529 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="RSB_Apur_Assistida">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 146942626 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Batch</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Batch - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 146942626 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Batch - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 146942626 - Field 2085289857 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ended On</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Batch - Field Ended On - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 146942626 - Field 1476062623 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Batch - Field Error Text - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 146942626 - Field 904953648 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Hash</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Batch - Field File Hash - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 146942626 - Field 1434822636 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Published</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Batch - Field Published - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 146942626 - Field 501758755 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Published On</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Batch - Field Published On - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 146942626 - Field 14793010 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Records</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Batch - Field Records - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 146942626 - Field 2799596912 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Request</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Batch - Field Request Entry No - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 146942626 - Field 3944750556 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Started On</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Batch - Field Started On - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 146942626 - Field 1878130204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Batch - Field Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2446756072 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Coverage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Coverage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2446756072 - Field 423184308 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debts Imported</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Coverage - Field Debts Imported - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2446756072 - Field 1317552199 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Environment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Coverage - Field Environment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2446756072 - Field 1591066002 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gap Detected</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Coverage - Field Gap - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2446756072 - Field 912261439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Coverage - Field Period - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2446756072 - Field 1210265698 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Last Query Completed On</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Coverage - Field Query Completed On - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2446756072 - Field 3369789712 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Gap Reason</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Coverage - Field Reason - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2446756072 - Field 2297889836 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Report Generated On</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Coverage - Field Report Generated On - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 2446756072 - Field 2187938695 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Coverage - Field Service - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1898464995 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Credential</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Credential - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1898464995 - Field 1090351696 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Active</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Credential - Field Active - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1898464995 - Field 3879241928 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client Id</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Credential - Field Client Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1898464995 - Field 3004954119 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Code</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Credential - Field Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1898464995 - Field 3461834954 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Description</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Credential - Field Description - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1898464995 - Field 1317552199 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Environment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Credential - Field Environment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1898464995 - Field 593885934 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Scope</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Credential - Field Scope - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1898464995 - Field 3686850964 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Secret Storage Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Credential - Field Secret Storage Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1898464995 - Field 3180471772 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Token Url</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Credential - Field Token Url - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3635369703 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Debt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Debt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3635369703 - NamedType 1081889843" size-unit="char" translate="yes" xml:space="preserve">
+          <source>cannot be negative.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Debt - NamedType CbsAssessedNegativeErr</note>
+        </trans-unit>
+        <trans-unit id="Table 3635369703 - Field 398659549 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NF-e Access Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Debt - Field Access Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3635369703 - Field 3222389443 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Publication Batch</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Debt - Field Batch Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3635369703 - Field 2675318985 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Assessed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Debt - Field CBS Assessed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3635369703 - Field 2815064843 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Excess</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Debt - Field CBS Excess - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3635369703 - Field 464156847 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Extinguished</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Debt - Field CBS Extinguished - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3635369703 - Field 2819493045 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Not Due</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Debt - Field CBS Not Due - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3635369703 - Field 1595147850 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Outstanding Balance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Debt - Field CBS Outstanding Balance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3635369703 - Field 2269617987 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Prepaid</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Debt - Field CBS Prepaid - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3635369703 - Field 2826310411 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Suspended</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Debt - Field CBS Suspended - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3635369703 - Field 1167507281 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Debt - Field Document - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3635369703 - Field 329134311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Debt - Field Entry No - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3635369703 - Field 1317552199 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Environment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Debt - Field Environment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3635369703 - Field 904953648 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Source File Hash</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Debt - Field File Hash - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3635369703 - Field 1898588168 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Issued On</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Debt - Field Issued On - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3635369703 - Field 742366809 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Taxpayer NI</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Debt - Field NI - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3635369703 - Field 2588654952 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Origin</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Debt - Field Origin - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3635369703 - Field 912261439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Period</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Debt - Field Period - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3635369703 - Field 1165483555 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Registered On</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Debt - Field Registered On - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3635369703 - Field 2799596912 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Originating Request</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Debt - Field Request Entry No - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3635369703 - Field 3010597328 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Updated On</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Debt - Field Updated On - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 135936672 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS File</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS File - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 135936672 - Field 2166181827 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Content</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS File - Field Content - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 135936672 - Field 329134311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS File - Field Entry No - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 135936672 - Field 2823505394 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Reference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS File - Field External Reference - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 135936672 - Field 883307914 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Generated On (Revenue Service)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS File - Field Generated On - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 135936672 - Field 2662783598 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Hash (SHA-256)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS File - Field Hash - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 135936672 - Field 3208180638 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS File - Field Processed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 135936672 - Field 1598921114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Received On</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS File - Field Received On - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 135936672 - Field 2799596912 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Request</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS File - Field Request Entry No - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 135936672 - Field 3964473375 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Size (bytes)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS File - Field Size - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 135936672 - Field 1085469059 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Storage Kind</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS File - Field Storage Kind - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1094488158 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Fiscal History Note (Buffer)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Fiscal History Buffer - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1094488158 - Field 398659549 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Access Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Fiscal History Buffer - Field Access Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1094488158 - Field 3786507132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Declared (Sum of Line Items)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Fiscal History Buffer - Field CBS Declared Items - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1094488158 - Field 448280176 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Declared (Total)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Fiscal History Buffer - Field CBS Declared Total - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1094488158 - Field 219695063 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Issue Date</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Fiscal History Buffer - Field Issue Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1094488158 - Field 3064208408 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Issuer CNPJ</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Fiscal History Buffer - Field Issuer CNPJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1094488158 - Field 513339096 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Status</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Fiscal History Buffer - Field Status - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1094488158 - Field 462152868 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>XML Available</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Fiscal History Buffer - Field Xml Available - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 441611318 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Event Log</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Log Entry - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 441611318 - Field 3702373668 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Log Entry - Field Category - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 441611318 - Field 91103124 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Correlation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Log Entry - Field Correlation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 441611318 - Field 1016837963 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Date and Time</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Log Entry - Field Date Time - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 441611318 - Field 329134311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Log Entry - Field Entry No - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 441611318 - Field 3310733264 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Event</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Log Entry - Field Event - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 441611318 - Field 3080618677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Message</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Log Entry - Field Message - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 441611318 - Field 3618771765 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Severity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Log Entry - Field Severity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 441611318 - Field 3776794752 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Log Entry - Field User Id - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3000858423 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Reconciliation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Reconciliation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3000858423 - Field 398659549 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>NF-e Access Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Reconciliation - Field Access Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3000858423 - Field 2443039188 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Adapter Used</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Reconciliation - Field Adapter Used - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3000858423 - Field 3063406461 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Bulk Reconciliation Batch</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Reconciliation - Field Batch Trail Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3000858423 - Field 3786507132 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Declared (Sum of Line Items)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Reconciliation - Field CBS Declared Items - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3000858423 - Field 448280176 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Declared (Note Total)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Reconciliation - Field CBS Declared Total - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3000858423 - Field 61007498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Classification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Reconciliation - Field Classification - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3000858423 - Field 3429131174 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Reconciliation - Field Debt Entry No - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3000858423 - Field 365542049 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Difference (Assessed - Declared)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Reconciliation - Field Difference - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3000858423 - Field 4086596872 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Evaluated By</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Reconciliation - Field Evaluated By - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3000858423 - Field 4067242922 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Evaluated On</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Reconciliation - Field Evaluated On - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3000858423 - Field 47264545 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Evaluation No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Reconciliation - Field Evaluation No - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3000858423 - Field 1035100252 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Note Exists in Fiscal History</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Reconciliation - Field Note Exists - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 3000858423 - Field 3369789712 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reason</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Reconciliation - Field Reason - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 751813821 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Request</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Request - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 751813821 - Field 1357648586 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Attempts in Current Cycle</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Request - Field Attempts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 751813821 - Field 584208950 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Base CNPJ</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Request - Field Base CNPJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 751813821 - Field 2389018819 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Created On</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Request - Field Created On - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 751813821 - Field 329134311 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry No.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Request - Field Entry No - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 751813821 - Field 1317552199 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Environment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Request - Field Environment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 751813821 - Field 555889461 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Request - Field File Entry No - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 751813821 - Field 904953648 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Hash (SHA-256)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Request - Field File Hash - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 751813821 - Field 1414900822 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Local State</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Request - Field Local State - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 751813821 - Field 3736341335 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Next Execution</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Request - Field Next Execution - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 751813821 - Field 2794495829 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remote State</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Request - Field Remote State - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 751813821 - Field 998739174 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Remote State Detail</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Request - Field Remote State Detail - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 751813821 - Field 2187938695 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Service</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Request - Field Service - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 751813821 - Field 4253021952 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ticket</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Request - Field Ticket - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 751813821 - Field 3010597328 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Updated On</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Request - Field Updated On - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 751813821 - Field 1850038062 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Signed URL Expires On</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Request - Field Url Expires On - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 751813821 - Field 2398598455 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Estimated Wait Time (s)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Request - Field Wait Time Seconds - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 501017567 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Setup - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 501017567 - NamedType 3934863859" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The starting period must be less than or equal to the ending period.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Setup - NamedType PeriodOutOfOrderErr</note>
+        </trans-unit>
+        <trans-unit id="Table 501017567 - Method 121669890 - NamedType 485829714" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Must contain exactly %1 numeric digits.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = expected number of digits</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Setup - Method ValidateDigitsOnly - NamedType CnpjLengthErr</note>
+        </trans-unit>
+        <trans-unit id="Table 501017567 - Field 2341716627 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Active Service</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Setup - Field Active Service - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 501017567 - Field 584208950 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Base CNPJ</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Setup - Field Base CNPJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 501017567 - Field 3543129988 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Collection Blocked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Setup - Field Blocked - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 501017567 - Field 3025169402 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credential</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Setup - Field Credential Code - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 501017567 - Field 1547081221 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Daily Opening Quota</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Setup - Field Daily Opening Quota - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 501017567 - Field 2661833662 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Ending Period (Panel)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Setup - Field Ending Period - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 501017567 - Field 1317552199 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Environment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Setup - Field Environment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 501017567 - Field 2324170553 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Fiscal History Adapter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Setup - Field Fiscal History Adapter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 501017567 - Field 3044403537 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Incremental Window (Days)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Setup - Field Incremental Window Days - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 501017567 - Field 205297229 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Original JSON Retention (Days)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Setup - Field JSON Retention Days - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 501017567 - Field 1663593181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Primary Key</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Setup - Field Primary Key - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 501017567 - Field 1597987850 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reconciliation Tolerance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Setup - Field Reconciliation Tolerance - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 501017567 - Field 615750631 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Starting Period (Panel)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Setup - Field Starting Period - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 501017567 - Field 3072055479 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Taxpayer CNPJ</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table CBS Setup - Field Taxpayer CNPJ - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 265312964 - NamedType 2142756679" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Batch %1 published: %2 imported, %3 divergent (collision), %4 invalid.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = batch code, %2/%3/%4 = counts</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Batch Publisher - NamedType BatchPublishedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 265312964 - NamedType 4294595067" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File already imported previously (hash %1); nothing to do.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = file hash</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Batch Publisher - NamedType FileAlreadyPublishedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2889259558 - NamedType 3951614143" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No active credential found for the environment of this request.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Collection Orchestrator - NamedType CredentialNotFoundErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2889259558 - NamedType 3531907496" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Failed to publish batch %1; see CBS Log Entry for details.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = batch code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Collection Orchestrator - NamedType PublishFailureErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2889259558 - NamedType 1057448200" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Maximum number of attempts in transient error exceeded.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Collection Orchestrator - NamedType TooManyAttemptsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2889259558 - NamedType 29602497" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Timeout or network failure on opening: uncertain state, waiting for intervention before retrying.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Collection Orchestrator - NamedType UncertainTimeoutMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3738875754 - Method 893739099 - NamedType 1254073849" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No fiscal history adapter is linked. Configure the adapter in CBS Setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Default Adapter - Method OpenNoteInViewer - NamedType NoAdapterMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3355159404 - NamedType 3804629883" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Demo credential (sandbox, fictitious data)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Demo Data Loader - NamedType DemoCredentialDescTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3355159404 - NamedType 1533273783" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Demo data loaded: %1 new debt(s), %2 new reconciliation(s).</source>
+          <note from="Developer" annotates="general" priority="2">%1/%2 = record counts</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Demo Data Loader - NamedType DemoDataLoadedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3355159404 - NamedType 1936870821" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assessed difference: 69.90.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Demo Data Loader - NamedType DemoReasonDivergentTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3355159404 - NamedType 2474147230" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Matched note found with no declared CBS amount.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Demo Data Loader - NamedType DemoReasonNoDeclaredTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3355159404 - NamedType 664303610" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No matching note found in the fiscal history.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Demo Data Loader - NamedType DemoReasonNoNoteTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3355159404 - NamedType 902602719" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Difference within the configured tolerance.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Demo Data Loader - NamedType DemoReasonReconciledTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 2521651477 - NamedType 1361210613" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Daily opening quota reached; waiting for the next day.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Job Queue Dispatcher - NamedType QuotaReachedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3659625412 - NamedType 1081889843" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Negative assessed CBS.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS JSON Importer - NamedType CbsAssessedNegativeErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3659625412 - NamedType 1395136777" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Natural key collision on key %1: original record (updated %2) kept; new update %3 discarded until intentional republication.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = NF-e key, %2/%3 = update dates</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS JSON Importer - NamedType CollisionMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3659625412 - NamedType 1008369336" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debt without the cbs object.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS JSON Importer - NamedType DebtWithoutCbsErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3659625412 - NamedType 62650915" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debt without the chave field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS JSON Importer - NamedType DebtWithoutKeyErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3659625412 - NamedType 3895367688" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invalid or empty JSON file.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS JSON Importer - NamedType InvalidJsonErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3659625412 - NamedType 4204412107" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invalid pa format (expected mm/yyyy).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS JSON Importer - NamedType PeriodInvalidErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3659625412 - NamedType 1549374824" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assessment item without the pa field.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS JSON Importer - NamedType PeriodMissingErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3659625412 - NamedType 3147141743" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unrecognized origin code; imported as Normal.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS JSON Importer - NamedType UnknownOriginMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 561895717 - NamedType 3287860482" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Internal divergence: sum of line items (%1) differs from the note total (%2).</source>
+          <note from="Developer" annotates="general" priority="2">%1/%2 = CBS amounts</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Reconciliation Engine - NamedType AdjustmentMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 561895717 - NamedType 2038905278" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debt with assessed CBS and no matching note found in the fiscal history.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Reconciliation Engine - NamedType DebtWithoutNoteMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 561895717 - NamedType 3177124127" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Assessed difference: %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = difference amount</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Reconciliation Engine - NamedType DivergentMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 561895717 - NamedType 1254073849" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No fiscal history adapter is linked in this company.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Reconciliation Engine - NamedType NoAdapterMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 561895717 - NamedType 554270658" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Matched note, but no CBS declared in the XML.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Reconciliation Engine - NamedType NoDeclaredCbsMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 561895717 - NamedType 1274688877" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Difference within the configured tolerance.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Reconciliation Engine - NamedType ReconciledMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 965062508 - NamedType 1422800406" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Note issued in the period with no CBS debt linked (reverse lookup).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Reverse Lookup - NamedType NoteWithoutDebtMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3660837055 - NamedType 2579137641" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File not yet available for download.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Tax Authority Connector - NamedType FileNotYetAvailableErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3660837055 - NamedType 4014986899" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Invalid request (HTTP 400).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Tax Authority Connector - NamedType Http400Err</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3660837055 - NamedType 538662308" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unauthorized: invalid credential or expired token (HTTP 401).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Tax Authority Connector - NamedType Http401Err</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3660837055 - NamedType 1004270438" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Access denied for the resource or environment (HTTP 403).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Tax Authority Connector - NamedType Http403Err</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3660837055 - NamedType 4834447" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Resource not found (HTTP 404).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Tax Authority Connector - NamedType Http404Err</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3660837055 - NamedType 2475399747" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Data rejected by the Revenue Service (HTTP 422).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Tax Authority Connector - NamedType Http422Err</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3660837055 - NamedType 1324624238" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Request quota exceeded (HTTP 429).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Tax Authority Connector - NamedType Http429Err</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3660837055 - NamedType 3171666904" size-unit="char" translate="yes" xml:space="preserve">
+          <source>HTTP failure %1.</source>
+          <note from="Developer" annotates="general" priority="2">%1 = HTTP status code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Tax Authority Connector - NamedType HttpGenericErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3660837055 - NamedType 232778209" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Revenue Service response in an unexpected format.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Tax Authority Connector - NamedType InvalidResponseErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3660837055 - NamedType 1948046709" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Network failure while communicating with the Revenue Service.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Tax Authority Connector - NamedType NetworkFailureErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3660837055 - NamedType 1472366553" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Network failure while opening the request (uncertain state; do not retry automatically).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Tax Authority Connector - NamedType NetworkFailureOpeningErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3660837055 - NamedType 470221718" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credential has no client secret configured.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Tax Authority Connector - NamedType SecretNotConfiguredErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3660837055 - NamedType 1602305706" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Failed to issue token (HTTP %1).</source>
+          <note from="Developer" annotates="general" priority="2">%1 = HTTP status code</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Tax Authority Connector - NamedType TokenHttpErrTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3660837055 - NamedType 191753056" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Token URL not configured on the credential.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Tax Authority Connector - NamedType TokenUrlNotConfiguredErr</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3660837055 - NamedType 740224723" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Signed URL expired or invalid.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Tax Authority Connector - NamedType UrlExpiredErr</note>
+        </trans-unit>
+        <trans-unit id="Page 1299203383 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Credential</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Credential Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1299203383 - Control 486669812 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>OAuth2 Authentication</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Credential Card - Control Authentication - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1299203383 - Control 3879241928 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the Client Id of the application registered with the Revenue Service.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Credential Card - Control Client Id - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1299203383 - Control 4069789961 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a new client secret. The typed value is written only to Isolated Storage and is never shown again.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Credential Card - Control ClientSecret - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1299203383 - Control 4069789961 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Client Secret</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Credential Card - Control ClientSecret - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1299203383 - Control 593885934 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the scope required by the client_credentials flow.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Credential Card - Control Scope - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1299203383 - Control 363875206 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether a client secret is already stored for this credential.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Credential Card - Control SecretConfigured - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1299203383 - Control 363875206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Secret Configured</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Credential Card - Control SecretConfigured - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1299203383 - Control 3180471772 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the token issuance URL used in the OAuth2 Client Credentials flow.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Credential Card - Control Token Url - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1299203383 - Control 2445482498 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>General</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Credential Card - Control General - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1299203383 - Control 1090351696 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether this credential can be selected in CBS Setup.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Credential Card - Control Active - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1299203383 - Control 3004954119 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the code that identifies this credential.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Credential Card - Control Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1299203383 - Control 3461834954 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies a free-text description for this credential.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Credential Card - Control Description - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1299203383 - Control 1317552199 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether this credential is used in Production or Restricted Production (sandbox).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Credential Card - Control Environment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3051334925 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Credentials</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Credential List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3051334925 - Control 363875206 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Secret Configured</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Credential List - Control SecretConfigured - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1307421233 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Debts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Debt List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1307421233 - Action 1165509248 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the reconciliation evaluations recorded for this debt.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Debt List - Action Reconciliations - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1307421233 - Action 1165509248 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reconciliations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Debt List - Action Reconciliations - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3561022760 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Panel</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Panel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3561022760 - Control 3971433691 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Totals of the Current Filter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Panel - Control Totals - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3561022760 - Control 3725835767 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the sum of CBS Assessed for the currently filtered rows.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Panel - Control TotalAssessedField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3561022760 - Control 3725835767 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total CBS Assessed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Panel - Control TotalAssessedField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3561022760 - Control 1684934056 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the sum of the Outstanding Balance for the currently filtered rows.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Panel - Control TotalOutstandingBalanceField - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3561022760 - Control 1684934056 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Total Outstanding Balance</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Panel - Control TotalOutstandingBalanceField - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3561022760 - Action 1165509248 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Shows the reconciliation evaluations recorded for the selected debt.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Panel - Action Reconciliations - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3561022760 - Action 1165509248 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reconciliations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Panel - Action Reconciliations - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 549355521 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Reconciliations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Reconciliation List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 334458451 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Requests</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Request List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - NamedType 662930363" size-unit="char" translate="yes" xml:space="preserve">
+          <source>This loads fictitious demo data (setup, credential, debts and reconciliations) for demonstration purposes. Continue?</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - NamedType LoadDemoDataConfirmQst</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - Control 4126130292 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Configuration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Control Configuration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - Control 2341716627 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the API service collected by the queue (the MVP only implements Debts).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Control Active Service - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - Control 584208950 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the parent company's base CNPJ (8 digits) used when opening requests.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Control Base CNPJ - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - Control 3543129988 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether automatic collection is temporarily blocked.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Control Blocked - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - Control 3025169402 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the active OAuth2 credential for this environment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Control Credential Code - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - Control 1317552199 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies whether this configuration operates in Production or Restricted Production (sandbox).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Control Environment - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - Control 3072055479 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the taxpayer's full CNPJ, used for verification during import.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Control Taxpayer CNPJ - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - Control 2181993114 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Default panel filters</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Control DefaultPanelFilters - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - Control 2661833662 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the default ending period when opening the panel.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Control Ending Period - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - Control 615750631 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the default starting period when opening the panel.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Control Starting Period - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - Control 3108107879 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Control Operation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - Control 1547081221 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the daily quota of request openings per credential.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Control Daily Opening Quota - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - Control 3044403537 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies, in days, the recent incremental window considered by the Revenue Service.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Control Incremental Window Days - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - Control 205297229 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies for how many days the original JSON is kept before purging.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Control JSON Retention Days - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - Control 2151650345 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reconciliation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Control Reconciliation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - Control 2324170553 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the fiscal history adapter used to locate the notes.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Control Fiscal History Adapter - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - Control 1597987850 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the maximum difference (in value) accepted to classify as Reconciled.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Control Reconciliation Tolerance - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - Action 4229622380 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credentials</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Action Credentials - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - Action 25557770 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Panel</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Action Panel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - Action 1399198439 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Loads a small set of fictitious setup, credential, debt and reconciliation records for demonstration purposes. Safe to run more than once.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Action LoadDemoData - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3157683995 - Action 1399198439 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Load Demo Data</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page CBS Setup Card - Action LoadDemoData - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4238463494 - Action 443515510 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2747922353">
+          <source>CBS Assisted Assessment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CBS Order Processor RC Ext - Action CBS Assisted Assessment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4238463494 - Action 900515813 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2747922353">
+          <source>Shows the OAuth2 credentials configured per environment.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CBS Order Processor RC Ext - Action CBSCredentialList - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4238463494 - Action 900515813 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2747922353">
+          <source>CBS Credentials</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CBS Order Processor RC Ext - Action CBSCredentialList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4238463494 - Action 3134311929 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2747922353">
+          <source>Shows every CBS debt imported from the Revenue Service API.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CBS Order Processor RC Ext - Action CBSDebtList - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4238463494 - Action 3134311929 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2747922353">
+          <source>CBS Debts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CBS Order Processor RC Ext - Action CBSDebtList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4238463494 - Action 954298704 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2747922353">
+          <source>Shows CBS debts by period, with totals for the current filter.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CBS Order Processor RC Ext - Action CBSPanel - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4238463494 - Action 954298704 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2747922353">
+          <source>CBS Panel</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CBS Order Processor RC Ext - Action CBSPanel - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4238463494 - Action 1444244681 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2747922353">
+          <source>Shows the reconciliation evaluations between CBS debts and the fiscal history.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CBS Order Processor RC Ext - Action CBSReconciliationList - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4238463494 - Action 1444244681 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2747922353">
+          <source>CBS Reconciliations</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CBS Order Processor RC Ext - Action CBSReconciliationList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4238463494 - Action 3092175979 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2747922353">
+          <source>Shows the collection cycles (requests) opened with the Revenue Service API.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CBS Order Processor RC Ext - Action CBSRequestList - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4238463494 - Action 3092175979 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2747922353">
+          <source>CBS Requests</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CBS Order Processor RC Ext - Action CBSRequestList - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4238463494 - Action 1846516163 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2747922353">
+          <source>Opens the main CBS Assisted Assessment configuration.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CBS Order Processor RC Ext - Action CBSSetupCard - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 4238463494 - Action 1846516163 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2747922353">
+          <source>CBS Setup</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension CBS Order Processor RC Ext - Action CBSSetupCard - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1501224162 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Batch Type</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Batch Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1501224162 - EnumValue 3888049325 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Batch Reconciliation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Batch Type - EnumValue BatchReconciliation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1501224162 - EnumValue 153585834 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Collection</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Batch Type - EnumValue Collection - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1501224162 - EnumValue 4126935853 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Republication</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Batch Type - EnumValue Republication - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2672739395 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Debt Origin</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Debt Origin - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2672739395 - EnumValue 1512066318 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CIF Spoilage Return by Credit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Debt Origin - EnumValue CifSpoilageReturnByCredit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2672739395 - EnumValue 3898364923 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CIF Spoilage Return by PCONT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Debt Origin - EnumValue CifSpoilageReturnByPcont - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2672739395 - EnumValue 2760635092 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CIF Spoilage Return by RAD</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Debt Origin - EnumValue CifSpoilageReturnByRad - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2672739395 - EnumValue 4026843943 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CIF Transport Spoilage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Debt Origin - EnumValue CifTransportSpoilage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2672739395 - EnumValue 2431529550 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit Cancellation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Debt Origin - EnumValue CreditCancellation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2672739395 - EnumValue 1932732505 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credit Note for Fine and Interest</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Debt Origin - EnumValue CreditNoteFineInterest - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2672739395 - EnumValue 3195995006 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>FOB Transport Spoilage</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Debt Origin - EnumValue FobTransportSpoilage - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2672739395 - EnumValue 221910773 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Normal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Debt Origin - EnumValue Normal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2672739395 - EnumValue 2479063155 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>PCONT Cancellation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Debt Origin - EnumValue PcontCancellation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2672739395 - EnumValue 3545900876 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>RAD Cancellation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Debt Origin - EnumValue RadCancellation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2672739395 - EnumValue 3018169712 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return by Credit</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Debt Origin - EnumValue ReturnByCredit - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2672739395 - EnumValue 4154074625 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return by PCONT</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Debt Origin - EnumValue ReturnByPcont - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2672739395 - EnumValue 53757306 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Return by RAD</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Debt Origin - EnumValue ReturnByRad - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4055943185 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Environment</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Environment Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4055943185 - EnumValue 1065337893 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Production</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Environment Type - EnumValue Production - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4055943185 - EnumValue 3182028858 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Restricted Production (Sandbox)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Environment Type - EnumValue RestrictedProduction - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 906268327 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Fiscal History Adapter</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Fiscal History Adapter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 906268327 - EnumValue 4235196891 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No Link (default)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Fiscal History Adapter - EnumValue NoLink - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1820098868 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Local State</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Local State - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1820098868 - EnumValue 4069904181 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Cancelled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Local State - EnumValue Cancelled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1820098868 - EnumValue 2505668089 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Definitive Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Local State - EnumValue DefinitiveError - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1820098868 - EnumValue 3215216787 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expired - File</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Local State - EnumValue ExpiredFile - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1820098868 - EnumValue 2444011224 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expired - Processing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Local State - EnumValue ExpiredProcessing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1820098868 - EnumValue 3854431673 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Available for Download</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Local State - EnumValue FileAvailable - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1820098868 - EnumValue 996276245 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>File Saved</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Local State - EnumValue FileSaved - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1820098868 - EnumValue 4259830144 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Local State - EnumValue Open - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1820098868 - EnumValue 1434822636 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Published</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Local State - EnumValue Published - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1820098868 - EnumValue 3991613872 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Transient Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Local State - EnumValue TransientError - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1820098868 - EnumValue 969554188 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Waiting Processing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Local State - EnumValue WaitingProcessing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 901419658 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Log Category</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Log Category - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 901419658 - EnumValue 153585834 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Collection</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Log Category - EnumValue Collection - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 901419658 - EnumValue 4126130292 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Configuration</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Log Category - EnumValue Configuration - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 901419658 - EnumValue 3201496503 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Import</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Log Category - EnumValue Import - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 901419658 - EnumValue 2151650345 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reconciliation</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Log Category - EnumValue Reconciliation - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 901419658 - EnumValue 1414360946 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Security</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Log Category - EnumValue Security - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 18412375 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Log Severity</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Log Severity - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 18412375 - EnumValue 536401205 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Critical</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Log Severity - EnumValue Critical - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 18412375 - EnumValue 2248886284 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Log Severity - EnumValue Error - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 18412375 - EnumValue 221910773 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Normal</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Log Severity - EnumValue Normal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 18412375 - EnumValue 3955473374 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Warning</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Log Severity - EnumValue Warning - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1410105007 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Reconciliation Classification</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Reconciliation Class. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1410105007 - EnumValue 1211660521 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Adjustment (internal item vs. total divergence)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Reconciliation Class. - EnumValue Adjustment - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1410105007 - EnumValue 3291272629 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debt without Matching Note</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Reconciliation Class. - EnumValue DebtWithoutNote - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1410105007 - EnumValue 2115065008 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Divergent</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Reconciliation Class. - EnumValue Divergent - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1410105007 - EnumValue 761854154 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>No Fiscal History Adapter Linked</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Reconciliation Class. - EnumValue NoAdapter - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1410105007 - EnumValue 2299614249 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Matched Note without Declared CBS</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Reconciliation Class. - EnumValue NoDeclaredCbs - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1410105007 - EnumValue 2593264445 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Note without Matching Debt</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Reconciliation Class. - EnumValue NoteWithoutDebt - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1410105007 - EnumValue 4187419646 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Reconciled</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Reconciliation Class. - EnumValue Reconciled - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2249762979 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Remote State</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Remote State - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2249762979 - EnumValue 3665605423 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Completed</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Remote State - EnumValue Completed - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2249762979 - EnumValue 2248886284 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Error</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Remote State - EnumValue Error - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2249762979 - EnumValue 1481297009 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Expired</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Remote State - EnumValue Expired - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2249762979 - EnumValue 3481143665 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Pending</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Remote State - EnumValue Pending - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2249762979 - EnumValue 3862845261 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Processing</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Remote State - EnumValue Processing - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2249762979 - EnumValue 4294440508 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Unknown</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Remote State - EnumValue Unknown - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1014713097 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Service</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Service - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1014713097 - EnumValue 876067474 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Credits (phase 3 - not implemented)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Service - EnumValue Credits - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1014713097 - EnumValue 602272336 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Debts</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Service - EnumValue Debts - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1014713097 - EnumValue 1004196339 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Payments (phase 3 - not implemented)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Service - EnumValue Payments - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1014713097 - EnumValue 3609569626 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Settlements (phase 3 - not implemented)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Service - EnumValue Settlements - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2595652341 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>CBS Storage Kind</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Storage Kind - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2595652341 - EnumValue 3926698677 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Blob (table field)</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Storage Kind - EnumValue Blob - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 2595652341 - EnumValue 1965869807 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>External Reference</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum CBS Storage Kind - EnumValue External - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

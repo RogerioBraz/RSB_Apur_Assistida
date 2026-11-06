@@ -1,0 +1,91 @@
+namespace RSB.ApurAssistida.CBS;
+
+/// <summary>
+/// Evaluates a debt against the fiscal history (via adapter) and records the result in CBS
+/// Reconciliation. The Adjustment classification reflects an internal divergence between the
+/// line item CBS value and the note total (spec section 6.9/8.1/8.4) - NOT the debt origin,
+/// which is merely informational. The absence of a configured adapter (enum "No Link")
+/// generates the NoAdapter classification, distinct from DebtWithoutNote (a configured
+/// adapter that genuinely did not find the note) - see RF09.
+/// </summary>
+codeunit 50135 "CBS Reconciliation Engine"
+{
+    Access = Internal;
+
+    /// <summary>Evaluates a single debt and records a new trail line in CBS Reconciliation.</summary>
+    procedure ReconcileDebt(var Debt: Record "CBS Debt"; Adapter: Interface "ICbsFiscalHistory"; SelectedAdapter: Enum "CBS Fiscal History Adapter"; Tolerance: Decimal; BatchTrailCode: Code[20])
+    var
+        Reconciliation: Record "CBS Reconciliation";
+        Buffer: Record "CBS Fiscal History Buffer";
+        NoteExists: Boolean;
+        DeclaredCbsTotal: Decimal;
+        DeclaredCbsItems: Decimal;
+        Reason: Text[250];
+    begin
+        NoteExists := Adapter.GetNoteByKey(Debt."Access Key", Debt.Environment, Buffer);
+        DeclaredCbsTotal := 0;
+        DeclaredCbsItems := 0;
+        if NoteExists then
+            Adapter.GetDeclaredCbs(Debt."Access Key", Debt.Environment, DeclaredCbsTotal, DeclaredCbsItems);
+
+        Reconciliation.Init();
+        Reconciliation."Debt Entry No" := Debt."Entry No";
+        Reconciliation."Access Key" := Debt."Access Key";
+        Reconciliation."Note Exists" := NoteExists;
+        Reconciliation."CBS Declared Total" := DeclaredCbsTotal;
+        Reconciliation."CBS Declared Items" := DeclaredCbsItems;
+        Reconciliation.Difference := Debt."CBS Assessed" - DeclaredCbsTotal;
+        Reconciliation."Adapter Used" := SelectedAdapter;
+        Reconciliation."Batch Trail Code" := BatchTrailCode;
+        Reconciliation.Classification := Classify(Debt, NoteExists, DeclaredCbsTotal, DeclaredCbsItems, SelectedAdapter, Tolerance, Reason);
+        Reconciliation.Reason := Reason;
+        Reconciliation.Insert(true);
+    end;
+
+    /// <summary>
+    /// Pure classification rule, kept separate from ReconcileDebt to allow isolated unit
+    /// testing without depending on a real adapter or on writing to a table.
+    /// </summary>
+    procedure Classify(Debt: Record "CBS Debt"; NoteExists: Boolean; DeclaredCbsTotal: Decimal; DeclaredCbsItems: Decimal; SelectedAdapter: Enum "CBS Fiscal History Adapter"; Tolerance: Decimal; var Reason: Text[250]): Enum "CBS Reconciliation Class."
+    var
+        Difference: Decimal;
+    begin
+        if not NoteExists then begin
+            if SelectedAdapter = SelectedAdapter::NoLink then begin
+                Reason := NoAdapterMsg;
+                exit("CBS Reconciliation Class."::NoAdapter);
+            end;
+            Reason := DebtWithoutNoteMsg;
+            exit("CBS Reconciliation Class."::DebtWithoutNote);
+        end;
+
+        if DeclaredCbsTotal = 0 then begin
+            Reason := NoDeclaredCbsMsg;
+            exit("CBS Reconciliation Class."::NoDeclaredCbs);
+        end;
+
+        // Internal divergence: the sum of the line item CBS values differs from the note
+        // total (mandatory fixture case from spec section 8.4: item 0.17 vs. total 0.19).
+        if (DeclaredCbsItems <> 0) and (DeclaredCbsItems <> DeclaredCbsTotal) then begin
+            Reason := CopyStr(StrSubstNo(AdjustmentMsg, DeclaredCbsItems, DeclaredCbsTotal), 1, 250);
+            exit("CBS Reconciliation Class."::Adjustment);
+        end;
+
+        Difference := Abs(Debt."CBS Assessed" - DeclaredCbsTotal);
+        if Difference <= Tolerance then begin
+            Reason := ReconciledMsg;
+            exit("CBS Reconciliation Class."::Reconciled);
+        end;
+
+        Reason := CopyStr(StrSubstNo(DivergentMsg, Debt."CBS Assessed" - DeclaredCbsTotal), 1, 250);
+        exit("CBS Reconciliation Class."::Divergent);
+    end;
+
+    var
+        NoAdapterMsg: Label 'No fiscal history adapter is linked in this company.';
+        DebtWithoutNoteMsg: Label 'Debt with assessed CBS and no matching note found in the fiscal history.';
+        NoDeclaredCbsMsg: Label 'Matched note, but no CBS declared in the XML.';
+        AdjustmentMsg: Label 'Internal divergence: sum of line items (%1) differs from the note total (%2).', Comment = '%1/%2 = CBS amounts';
+        ReconciledMsg: Label 'Difference within the configured tolerance.';
+        DivergentMsg: Label 'Assessed difference: %1.', Comment = '%1 = difference amount';
+}
