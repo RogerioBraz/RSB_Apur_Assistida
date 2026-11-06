@@ -1,0 +1,32 @@
+{
+  "id": "96fa5c79-e50d-4ddd-b94e-7e11b06c9dcf",
+  "name": "RSB_Apur_Assistida",
+  "publisher": "Default Publisher",
+  "version": "1.0.0.0001",
+  "brief": "",
+  "description": "",
+  "privacyStatement": "https://rsbtech.com.br/",
+  "EULA": "https://rsbtech.com.br/",
+  "help": "https://rsbtech.com.br/",
+  "url": "https://rsbtech.com.br/",
+  "logo": "",
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "1.0.0.0",
+  "application": "29.0.0.0",
+  "idRanges": [
+    {
+      "from": 50100,
+      "to": 50149
+    }
+  ],
+  "resourceExposurePolicy": {
+    "allowDebugging": true,
+    "allowDownloadingSource": true,
+    "includeSourceInSymbolFile": true
+  },
+  "runtime": "18.0",
+  "features": [
+    "NoImplicitWith"
+  ]
+}

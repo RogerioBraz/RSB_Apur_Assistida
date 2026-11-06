@@ -1,0 +1,48 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "RSBTech Dev",
+            "request": "launch",
+            "type": "al",
+            "tenant": "5f731f4c-8cfd-433d-8d46-748bb1370451",
+            "environmentType": "Sandbox",
+            "environmentName": "Dev",
+            "startupCompany": "CoreSetup",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "ForceSync"
+        },
+        {
+            "name": "RSBTech UAT",
+            "request": "launch",
+            "type": "al",
+            "tenant": "5f731f4c-8cfd-433d-8d46-748bb1370451",
+            "environmentType": "Sandbox",
+            "environmentName": "UAT",
+            "startupCompany": "CoreSetup",
+            "startupObjectId": 22,
+            "startupObjectType": "Page",
+            "breakOnError": "All",
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,
+            "schemaUpdateMode": "ForceSync"
+        },
+        {
+            "name": "AL: Generated Attach request",
+            "request": "attach",
+            "type": "al",
+            "environmentType": "Sandbox",
+            "environmentName": "Dev",
+            "sessionId": 307247,
+            "breakOnNext": "WebClient",
+            "breakOnError": "ExcludeTry",
+            "tenant": "5f731f4c-8cfd-433d-8d46-748bb1370451"
+        }
+    ]
+}
