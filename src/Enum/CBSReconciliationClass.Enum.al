@@ -39,4 +39,8 @@ enum 50114 "CBS Reconciliation Class."
     {
         Caption = 'No Fiscal History Adapter Linked';
     }
+    value(7; NotApplicableDFe)
+    {
+        Caption = 'Not Applicable (document is not NF-e)';
+    }
 }

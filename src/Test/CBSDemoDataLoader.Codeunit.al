@@ -81,17 +81,17 @@ codeunit 50100 "CBS Demo Data Loader"
         Adapter := Setup."Fiscal History Adapter";
 
         // Two debts per period (oldest to most recent), with varied origins and amounts.
-        if EnsureDemoDebt(Setup, DemoPeriod(2), 1270001, '000001', "CBS Debt Origin"::Normal, 1250.75, EntryNo1) then
+        if EnsureDemoDebt(Setup, DemoPeriod(2), "CBS Document Type"::NFe, '000001', "CBS Debt Origin"::Normal, 1250.75, EntryNo1) then
             InsertedDebts += 1;
-        if EnsureDemoDebt(Setup, DemoPeriod(2), 1270002, '000002', "CBS Debt Origin"::ReturnByPcont, 430.10, EntryNo2) then
+        if EnsureDemoDebt(Setup, DemoPeriod(2), "CBS Document Type"::NFe, '000002', "CBS Debt Origin"::ReturnByPcont, 430.10, EntryNo2) then
             InsertedDebts += 1;
-        if EnsureDemoDebt(Setup, DemoPeriod(1), 1270003, '000003', "CBS Debt Origin"::Normal, 980.00, EntryNo3) then
+        if EnsureDemoDebt(Setup, DemoPeriod(1), "CBS Document Type"::NFe, '000003', "CBS Debt Origin"::Normal, 980.00, EntryNo3) then
             InsertedDebts += 1;
-        if EnsureDemoDebt(Setup, DemoPeriod(1), 1270004, '000004', "CBS Debt Origin"::Normal, 2100.55, EntryNo4) then
+        if EnsureDemoDebt(Setup, DemoPeriod(1), "CBS Document Type"::NFe, '000004', "CBS Debt Origin"::Normal, 2100.55, EntryNo4) then
             InsertedDebts += 1;
-        if EnsureDemoDebt(Setup, DemoPeriod(0), 1270005, '000005', "CBS Debt Origin"::Normal, 310.40, EntryNo5) then
+        if EnsureDemoDebt(Setup, DemoPeriod(0), "CBS Document Type"::NFe, '000005', "CBS Debt Origin"::Normal, 310.40, EntryNo5) then
             InsertedDebts += 1;
-        if EnsureDemoDebt(Setup, DemoPeriod(0), 1270006, '000006', "CBS Debt Origin"::CreditCancellation, 75.20, EntryNo6) then
+        if EnsureDemoDebt(Setup, DemoPeriod(0), "CBS Document Type"::NFe, '000006', "CBS Debt Origin"::CreditCancellation, 75.20, EntryNo6) then
             InsertedDebts += 1;
 
         // Four of the six debts are reconciled (one per classification below); the two most
@@ -107,7 +107,7 @@ codeunit 50100 "CBS Demo Data Loader"
             InsertedReconciliations += 1;
     end;
 
-    local procedure EnsureDemoDebt(Setup: Record "CBS Setup"; Period: Date; Document: Integer; AccessKeySuffix: Text[10]; Origin: Enum "CBS Debt Origin"; AssessedAmount: Decimal; var EntryNo: Integer): Boolean
+    local procedure EnsureDemoDebt(Setup: Record "CBS Setup"; Period: Date; Document: Enum "CBS Document Type"; AccessKeySuffix: Text[10]; Origin: Enum "CBS Debt Origin"; AssessedAmount: Decimal; var EntryNo: Integer): Boolean
     var
         Debt: Record "CBS Debt";
         AccessKey: Text[100];
@@ -132,6 +132,7 @@ codeunit 50100 "CBS Demo Data Loader"
         Debt."Updated On" := CurrentDateTime();
         Debt."CBS Assessed" := AssessedAmount;
         Debt."CBS Outstanding Balance" := AssessedAmount;
+        Debt.Published := true; // demo rows must be visible on the panel
         Debt.Insert(true);
         EntryNo := Debt."Entry No";
         exit(true);

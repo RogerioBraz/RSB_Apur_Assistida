@@ -147,13 +147,11 @@ page 50154 "CBS Panel"
         Setup: Record "CBS Setup";
     begin
         Setup.GetSetup(Setup);
+        // ADR-04: the panel only reads published batches. Unpublished (staged/aborted)
+        // imports stay invisible here, even if their rows already exist in the table.
+        Rec.SetRange(Published, true);
         if (Setup."Starting Period" <> 0D) or (Setup."Ending Period" <> 0D) then
             Rec.SetRange(Period, Setup."Starting Period", Setup."Ending Period");
-        UpdateTotals();
-    end;
-
-    trigger OnAfterGetRecord()
-    begin
         UpdateTotals();
     end;
 

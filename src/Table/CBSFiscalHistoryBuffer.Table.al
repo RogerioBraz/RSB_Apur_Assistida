@@ -10,7 +10,7 @@ table 50130 "CBS Fiscal History Buffer"
 {
     Caption = 'CBS Fiscal History Note (Buffer)';
     DataClassification = SystemMetadata;
-    Access = Internal;
+    Access = Public;
     TableType = Temporary;
 
     fields

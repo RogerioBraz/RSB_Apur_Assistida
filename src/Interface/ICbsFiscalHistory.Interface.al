@@ -14,7 +14,7 @@ namespace RSB.ApurAssistida.CBS;
 /// </summary>
 interface "ICbsFiscalHistory"
 {
-    Access = Internal;
+    Access = Public;
 
     /// <summary>Gets the fiscal history note by its access key.</summary>
     /// <param name="AccessKey">Access key of the NF-e (44 digits).</param>

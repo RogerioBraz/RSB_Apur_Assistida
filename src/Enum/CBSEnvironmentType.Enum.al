@@ -9,7 +9,9 @@ namespace RSB.ApurAssistida.CBS;
 enum 50117 "CBS Environment Type"
 {
     Extensible = false;
-    Access = Internal;
+    // Public because it is part of the ICbsFiscalHistory signature: a partner adapter in
+    // another module must be able to declare the Environment parameter.
+    Access = Public;
     Caption = 'CBS Environment';
 
     value(0; Production)

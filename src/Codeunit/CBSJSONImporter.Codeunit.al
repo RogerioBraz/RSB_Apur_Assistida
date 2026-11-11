@@ -86,7 +86,7 @@ codeunit 50134 "CBS JSON Importer"
         CbsObj: JsonObject;
         Tok: JsonToken;
         AccessKey: Text[100];
-        Document: Integer;
+        Document: Enum "CBS Document Type";
         Origin: Enum "CBS Debt Origin";
         CbsAssessed: Decimal;
         Updated: DateTime;
@@ -98,7 +98,11 @@ codeunit 50134 "CBS JSON Importer"
         end;
         AccessKey := CopyStr(Tok.AsValue().AsText(), 1, 100);
 
-        Document := GetOptionalInt(DebtObj, 'documento');
+        if not TryConvertDocument(GetOptionalInt(DebtObj, 'documento'), Document) then begin
+            RecordsInvalid += 1;
+            Telemetry.ErrorEvent("CBS Log Category"::Import, Batch."Code", UnknownDocumentErr);
+            exit;
+        end;
 
         if not TryConvertOrigin(GetOptionalInt(DebtObj, 'origem'), Origin) then begin
             Origin := Origin::Normal;
@@ -139,7 +143,7 @@ codeunit 50134 "CBS JSON Importer"
         RecordsImported += 1;
     end;
 
-    local procedure FillDebtFields(var Debt: Record "CBS Debt"; DebtObj: JsonObject; CbsObj: JsonObject; Environment: Enum "CBS Environment Type"; Ni: Text[14]; Period: Date; Document: Integer; AccessKey: Text[100]; Origin: Enum "CBS Debt Origin"; CbsAssessed: Decimal; Updated: DateTime; Batch: Record "CBS Batch")
+    local procedure FillDebtFields(var Debt: Record "CBS Debt"; DebtObj: JsonObject; CbsObj: JsonObject; Environment: Enum "CBS Environment Type"; Ni: Text[14]; Period: Date; Document: Enum "CBS Document Type"; AccessKey: Text[100]; Origin: Enum "CBS Debt Origin"; CbsAssessed: Decimal; Updated: DateTime; Batch: Record "CBS Batch")
     begin
         Debt.Environment := Environment;
         Debt.NI := Ni;
@@ -242,6 +246,12 @@ codeunit 50134 "CBS JSON Importer"
     end;
 
     [TryFunction]
+    local procedure TryConvertDocument(Value: Integer; var Document: Enum "CBS Document Type")
+    begin
+        Document := Enum::"CBS Document Type".FromInteger(Value);
+    end;
+
+    [TryFunction]
     local procedure TryConvertOrigin(Value: Integer; var Origin: Enum "CBS Debt Origin")
     begin
         Origin := Enum::"CBS Debt Origin".FromInteger(Value);
@@ -254,6 +264,7 @@ codeunit 50134 "CBS JSON Importer"
         DebtWithoutKeyErr: Label 'Debt without the chave field.';
         DebtWithoutCbsErr: Label 'Debt without the cbs object.';
         CbsAssessedNegativeErr: Label 'Negative assessed CBS.';
+        UnknownDocumentErr: Label 'Unrecognized document type code in the documento field.';
         UnknownOriginMsg: Label 'Unrecognized origin code; imported as Normal.';
         CollisionMsg: Label 'Natural key collision on key %1: original record (updated %2) kept; new update %3 discarded until intentional republication.', Comment = '%1 = NF-e key, %2/%3 = update dates';
 }

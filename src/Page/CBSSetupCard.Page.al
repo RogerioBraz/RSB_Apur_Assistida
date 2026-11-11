@@ -139,6 +139,38 @@ page 50150 "CBS Setup Card"
                     Message(CollectionCycleRanMsg);
                 end;
             }
+            action(PurgeExpiredFiles)
+            {
+                ApplicationArea = All;
+                Caption = 'Purge Expired JSON';
+                ToolTip = 'Clears the original JSON of files older than the retention window. The file row and its hash are kept for audit and idempotency.';
+                Image = Delete;
+
+                trigger OnAction()
+                var
+                    Maintenance: Codeunit "CBS Maintenance";
+                    PurgedCount: Integer;
+                begin
+                    PurgedCount := Maintenance.PurgeExpiredFiles();
+                    Message(PurgedMsg, PurgedCount);
+                end;
+            }
+            action(RebuildCoverage)
+            {
+                ApplicationArea = All;
+                Caption = 'Rebuild Coverage';
+                ToolTip = 'Rebuilds the coverage ledger (last collection and debt count per period) from the published data.';
+                Image = Refresh;
+
+                trigger OnAction()
+                var
+                    Maintenance: Codeunit "CBS Maintenance";
+                    Rows: Integer;
+                begin
+                    Rows := Maintenance.RebuildCoverage();
+                    Message(CoverageMsg, Rows);
+                end;
+            }
             action(LoadDemoData)
             {
                 ApplicationArea = All;
@@ -166,4 +198,6 @@ page 50150 "CBS Setup Card"
     var
         LoadDemoDataConfirmQst: Label 'This loads fictitious demo data (setup, credential, debts and reconciliations) for demonstration purposes. Continue?';
         CollectionCycleRanMsg: Label 'Collection cycle finished. See CBS Requests and CBS Log Entry for details.';
+        PurgedMsg: Label '%1 file(s) purged.', Comment = '%1 = number of files purged';
+        CoverageMsg: Label 'Coverage rebuilt: %1 period(s).', Comment = '%1 = number of period rows written';
 }

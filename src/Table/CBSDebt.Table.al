@@ -45,14 +45,13 @@ table 50104 "CBS Debt"
             Caption = 'Period';
             DataClassification = CustomerContent;
         }
-        field(14; Document; Integer)
+        field(14; Document; Enum "CBS Document Type")
         {
-            // [VALIDATE] The official contract describes "documento" only as "integer -
-            // document number in the assessment", without detailing whether it matches a
-            // DFe model. Do not assume here any correspondence with model codes (55, 57...)
-            // without confirming with a real sample from the Revenue Service.
-            Caption = 'Document';
-            DataClassification = CustomerContent;
+            // The official contract (debito.html, section 5) publishes "documento" as the
+            // DFe model code: 55 = NF-e, 57 = CT-e, 91 = NFS-e and so on. It is the document
+            // type, not the document number, so it is modelled as a normative enum.
+            Caption = 'Document Type';
+            DataClassification = SystemMetadata;
         }
         field(15; "Access Key"; Text[100])
         {
@@ -132,6 +131,14 @@ table 50104 "CBS Debt"
             Caption = 'Source File Hash';
             DataClassification = SystemMetadata;
         }
+        field(43; Published; Boolean)
+        {
+            // Denormalized copy of CBS Batch.Published, written in the same final transaction
+            // as the batch flag. It exists so the panel can filter published rows with a
+            // plain range (ADR-04) instead of joining the batch table for every read.
+            Caption = 'Published';
+            DataClassification = SystemMetadata;
+        }
         field(42; "Request Entry No"; Integer)
         {
             Caption = 'Originating Request';
@@ -153,9 +160,9 @@ table 50104 "CBS Debt"
             // referenced by CBS Reconciliation, following the same pattern as Business
             // Central ledger tables (e.g. G/L Entry, Item Ledger Entry).
         }
-        key(K3; Period, Environment)
+        key(K3; Published, Period, Environment)
         {
-            // default filter for the panel by period (inclusive range, RF04)
+            // panel filter: published rows only, by period (inclusive range, RF04)
         }
         key(K4; "Access Key")
         {

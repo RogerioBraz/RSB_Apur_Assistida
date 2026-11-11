@@ -17,4 +17,8 @@ enum 50141 "CBS Storage Kind"
     {
         Caption = 'External Reference';
     }
+    value(2; Purged)
+    {
+        Caption = 'Purged (retention window elapsed)';
+    }
 }

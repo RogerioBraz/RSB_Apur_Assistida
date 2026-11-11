@@ -76,6 +76,14 @@ codeunit 50135 "CBS Reconciliation Engine"
     var
         Difference: Decimal;
     begin
+        // The MVP reconciles NF-e (model 55) only. A CT-e/NFS-e debt cannot be matched
+        // against the NF-e history, so classifying it as "debt without note" would flood the
+        // fiscal user with false exceptions (see spec 2.2: other DFe models are roadmap).
+        if Debt.Document <> Debt.Document::NFe then begin
+            Reason := CopyStr(StrSubstNo(NotNfeMsg, Format(Debt.Document)), 1, 250);
+            exit("CBS Reconciliation Class."::NotApplicableDFe);
+        end;
+
         if not NoteExists then begin
             if SelectedAdapter = SelectedAdapter::NoLink then begin
                 Reason := NoAdapterMsg;
@@ -108,6 +116,7 @@ codeunit 50135 "CBS Reconciliation Engine"
     end;
 
     var
+        NotNfeMsg: Label 'Document type %1 is not NF-e (55); not applicable to the MVP reconciliation.', Comment = '%1 = document type';
         NoAdapterMsg: Label 'No fiscal history adapter is linked in this company.';
         DebtWithoutNoteMsg: Label 'Debt with assessed CBS and no matching note found in the fiscal history.';
         NoDeclaredCbsMsg: Label 'Matched note, but no CBS declared in the XML.';

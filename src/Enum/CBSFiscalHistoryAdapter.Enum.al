@@ -10,7 +10,7 @@ namespace RSB.ApurAssistida.CBS;
 enum 50111 "CBS Fiscal History Adapter" implements "ICbsFiscalHistory"
 {
     Extensible = true;
-    Access = Internal;
+    Access = Public;
     Caption = 'CBS Fiscal History Adapter';
     DefaultImplementation = "ICbsFiscalHistory" = "CBS Default Adapter";
 

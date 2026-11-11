@@ -43,6 +43,11 @@ codeunit 50133 "CBS Tax Authority Connector" implements "ICbsHttpClient"
             exit(false);
         end;
 
+        // Reuse a still-valid token: the Revenue Service limits openings to 4 calls per day
+        // per API, so every avoidable authentication round-trip is a real operational cost.
+        if TryGetCachedToken(Credential, Token, ExpiresOn) then
+            exit(true);
+
         // SecretStrSubstNo requires every variadic argument to be SecretText; the
         // non-sensitive parts (encoded client_id and scope) are implicitly converted to
         // SecretText only to satisfy the signature - the secret itself (Secret) never passes
@@ -88,6 +93,7 @@ codeunit 50133 "CBS Tax Authority Connector" implements "ICbsHttpClient"
         if Json.Get('expires_in', ExpiresInTok) then
             ExpiresInSec := ExpiresInTok.AsValue().AsInteger();
         ExpiresOn := CurrentDateTime() + (ExpiresInSec * 1000);
+        StoreCachedToken(Credential, Token, ExpiresOn);
         exit(true);
     end;
 
@@ -121,7 +127,7 @@ codeunit 50133 "CBS Tax Authority Connector" implements "ICbsHttpClient"
         Req.SetRequestUri(Url);
         Req.Content(Content);
         Req.GetHeaders(ReqHeaders);
-        ReqHeaders.Add('Authorization', SecretStrSubstNo('******', Token));
+        ReqHeaders.Add('Authorization', SecretStrSubstNo('Bearer %1', Token));
 
         if not Client.Send(Req, Resp) then begin
             // A timeout/network failure on the opening POST is an UNCERTAIN STATE (spec
@@ -130,6 +136,13 @@ codeunit 50133 "CBS Tax Authority Connector" implements "ICbsHttpClient"
             exit(false);
         end;
 
+        if Resp.HttpStatusCode() = 401 then begin
+            // A cached token may have been revoked/expired early: drop it so the next cycle
+            // authenticates again instead of looping on a stale credential.
+            InvalidateCachedToken(Credential);
+            ErrorMessage := MapHttpError(Resp.HttpStatusCode());
+            exit(false);
+        end;
         if not Resp.IsSuccessStatusCode() then begin
             ErrorMessage := MapHttpError(Resp.HttpStatusCode());
             exit(false);
@@ -178,10 +191,15 @@ codeunit 50133 "CBS Tax Authority Connector" implements "ICbsHttpClient"
         Req.Method('GET');
         Req.SetRequestUri(Url);
         Req.GetHeaders(ReqHeaders);
-        ReqHeaders.Add('Authorization', SecretStrSubstNo('******', Token));
+        ReqHeaders.Add('Authorization', SecretStrSubstNo('Bearer %1', Token));
 
         if not Client.Send(Req, Resp) then begin
             ErrorMessage := NetworkFailureErr;
+            exit(false);
+        end;
+        if Resp.HttpStatusCode() = 401 then begin
+            InvalidateCachedToken(Credential);
+            ErrorMessage := MapHttpError(Resp.HttpStatusCode());
             exit(false);
         end;
         if not Resp.IsSuccessStatusCode() then begin
@@ -229,10 +247,15 @@ codeunit 50133 "CBS Tax Authority Connector" implements "ICbsHttpClient"
         Req.Method('GET');
         Req.SetRequestUri(Url);
         Req.GetHeaders(ReqHeaders);
-        ReqHeaders.Add('Authorization', SecretStrSubstNo('******', Token));
+        ReqHeaders.Add('Authorization', SecretStrSubstNo('Bearer %1', Token));
 
         if not Client.Send(Req, Resp) then begin
             ErrorMessage := NetworkFailureErr;
+            exit(false);
+        end;
+        if Resp.HttpStatusCode() = 401 then begin
+            InvalidateCachedToken(Credential);
+            ErrorMessage := MapHttpError(Resp.HttpStatusCode());
             exit(false);
         end;
         if Resp.HttpStatusCode() = 404 then begin
@@ -257,9 +280,10 @@ codeunit 50133 "CBS Tax Authority Connector" implements "ICbsHttpClient"
         SignedUrl := CopyStr(UrlTok.AsValue().AsText(), 1, 2048);
 
         if Json.Get('urlAssinadaExpiraEm', ExpiresTok) then
-            // [VALIDATE] confirm the exact format of urlAssinadaExpiraEm with the Revenue
-            // Service.
-            Evaluate(ExpiresOn, ExpiresTok.AsValue().AsText());
+            // A malformed/unknown date format must never abort the whole Job Queue cycle:
+            // the expiry is only an optimization hint, the download itself is authoritative.
+            if not TryEvaluateExpiry(ExpiresTok.AsValue().AsText(), ExpiresOn) then
+                ExpiresOn := 0DT;
         exit(true);
     end;
 
@@ -293,6 +317,82 @@ codeunit 50133 "CBS Tax Authority Connector" implements "ICbsHttpClient"
         Content.CreateOutStream(OutStr);
         CopyStream(OutStr, RespIn);
         exit(true);
+    end;
+
+    /// <summary>
+    /// Best-effort conversion of urlAssinadaExpiraEm. A TryFunction signals failure by
+    /// raising an error, which the runtime swallows; the caller checks its Boolean result.
+    /// </summary>
+    [TryFunction]
+    local procedure TryEvaluateExpiry(ExpiryText: Text; var ExpiresOn: DateTime)
+    var
+        Parsed: DateTime;
+        UnparsedErr: Label 'Unparseable expiry date.';
+        LastChar: Text;
+    begin
+        if ExpiryText = '' then
+            Error(UnparsedErr);
+        // Accept both the plain AL date-time format and the usual ISO 8601 form ending in Z
+        // (the Z is dropped: the reference used by the extension is local time).
+        LastChar := CopyStr(ExpiryText, StrLen(ExpiryText), 1);
+        if (LastChar = 'Z') or (LastChar = 'z') then
+            Evaluate(Parsed, CopyStr(ExpiryText, 1, StrLen(ExpiryText) - 1))
+        else
+            Evaluate(Parsed, ExpiryText);
+        ExpiresOn := Parsed;
+    end;
+
+    /// <summary>Storage key of the cached access token of a credential.</summary>
+    local procedure TokenCacheKey(Credential: Record "CBS Credential"): Text
+    var
+        KeyPrefix: Label 'CBS-TOKEN-', Locked = true;
+    begin
+        exit(KeyPrefix + Format(Credential."Secret Storage Key"));
+    end;
+
+    /// <summary>
+    /// Returns the cached token when it is still valid, keeping a safety margin so that a
+    /// token never expires in the middle of a request. The token is handed over as SecretText
+    /// and is never materialized as Text.
+    /// </summary>
+    [TryFunction]
+    local procedure TryGetCachedToken(Credential: Record "CBS Credential"; var Token: SecretText; var ExpiresOn: DateTime)
+    var
+        CachedExpiry: Text;
+        ParsedExpiry: DateTime;
+        NoCacheErr: Label 'No cached token.';
+    begin
+        if not IsolatedStorage.Get(TokenCacheKey(Credential) + '-EXP', DataScope::Company, CachedExpiry) then
+            Error(NoCacheErr);
+        if not Evaluate(ParsedExpiry, CachedExpiry) then
+            Error(NoCacheErr);
+        // 5-minute safety margin: a token expiring sooner is treated as already expired.
+        if ParsedExpiry <= CurrentDateTime() + 300000 then
+            Error(NoCacheErr);
+        if not IsolatedStorage.Get(TokenCacheKey(Credential), DataScope::Company, Token) then
+            Error(NoCacheErr);
+        ExpiresOn := ParsedExpiry;
+    end;
+
+    /// <summary>Stores (or refreshes) the token in Isolated Storage, per company.</summary>
+    local procedure StoreCachedToken(Credential: Record "CBS Credential"; Token: SecretText; ExpiresOn: DateTime)
+    var
+        ExpiryText: Text;
+    begin
+        IsolatedStorage.Set(TokenCacheKey(Credential), Token, DataScope::Company);
+        ExpiryText := Format(ExpiresOn);
+        IsolatedStorage.Set(TokenCacheKey(Credential) + '-EXP', ExpiryText, DataScope::Company);
+    end;
+
+    /// <summary>Drops the cached token (called after a 401, so the next call re-authenticates).</summary>
+    procedure InvalidateCachedToken(Credential: Record "CBS Credential")
+    begin
+        if IsNullGuid(Credential."Secret Storage Key") then
+            exit;
+        if IsolatedStorage.Contains(TokenCacheKey(Credential), DataScope::Company) then
+            IsolatedStorage.Delete(TokenCacheKey(Credential), DataScope::Company);
+        if IsolatedStorage.Contains(TokenCacheKey(Credential) + '-EXP', DataScope::Company) then
+            IsolatedStorage.Delete(TokenCacheKey(Credential) + '-EXP', DataScope::Company);
     end;
 
     local procedure ServicePath(Service: Enum "CBS Service"): Text

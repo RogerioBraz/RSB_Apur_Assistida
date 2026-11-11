@@ -31,6 +31,7 @@ codeunit 50136 "CBS Batch Publisher"
     local procedure Publish(var Request: Record "CBS Request"; var CBSFile: Record "CBS File"; Type: Enum "CBS Batch Type"): Code[20]
     var
         Batch: Record "CBS Batch";
+        DebtMarker: Record "CBS Debt";
         BatchCode: Code[20];
         RecordsImported: Integer;
         RecordsDivergent: Integer;
@@ -62,7 +63,11 @@ codeunit 50136 "CBS Batch Publisher"
         end;
 
         // Single final transaction: no Commit() happened inside the import loop (it runs
-        // entirely inside TryImport); the Published flag is only written here.
+        // entirely inside TryImport); the Published flag is only written here. The debts of
+        // this batch become visible at the same instant as the batch itself (ADR-04).
+        DebtMarker.SetRange("Batch Code", Batch."Code");
+        DebtMarker.ModifyAll(Published, true);
+
         Batch.Published := true;
         Batch."Published On" := CurrentDateTime();
         Batch."Ended On" := CurrentDateTime();
