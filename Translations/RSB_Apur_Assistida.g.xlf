@@ -684,9 +684,14 @@
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Demo Data Loader - NamedType DemoCredentialDescTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 3355159404 - NamedType 1533273783" size-unit="char" translate="yes" xml:space="preserve">
-          <source>Demo data loaded: %1 new debt(s), %2 new reconciliation(s).</source>
-          <note from="Developer" annotates="general" priority="2">%1/%2 = record counts</note>
+          <source>Demo data loaded: %1 debt(s), %2 reconciliation(s), %3 collection cycle(s). Two debts are left pending so you can try "Reconcile Pending Debts".</source>
+          <note from="Developer" annotates="general" priority="2">%1/%2/%3 = record counts</note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Demo Data Loader - NamedType DemoDataLoadedMsg</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3355159404 - NamedType 152431532" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Internal divergence: sum of line items (170,00) differs from the note total (190,00).</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Demo Data Loader - NamedType DemoReasonAdjustmentTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 3355159404 - NamedType 1936870821" size-unit="char" translate="yes" xml:space="preserve">
           <source>Assessed difference: 69.90.</source>
@@ -702,6 +707,11 @@
           <source>No matching note found in the fiscal history.</source>
           <note from="Developer" annotates="general" priority="2"></note>
           <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Demo Data Loader - NamedType DemoReasonNoNoteTxt</note>
+        </trans-unit>
+        <trans-unit id="Codeunit 3355159404 - NamedType 1257788145" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Document type CT-e is not NF-e; not applicable to the MVP reconciliation.</source>
+          <note from="Developer" annotates="general" priority="2"></note>
+          <note from="Xliff Generator" annotates="general" priority="3">Codeunit CBS Demo Data Loader - NamedType DemoReasonNotApplicableTxt</note>
         </trans-unit>
         <trans-unit id="Codeunit 3355159404 - NamedType 902602719" size-unit="char" translate="yes" xml:space="preserve">
           <source>Difference within the configured tolerance.</source>
